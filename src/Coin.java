@@ -2,7 +2,9 @@
 public abstract class Coin implements ICalculate {
     public abstract double getValue();
 
-    public abstract double calculate(double input);
+    public  double calculate(double input) {
+        return 0;
+    }
 }
 
 
